@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {    
+    height: 100% auto;
+    width: 0 auto 0 auto;
+    
+}
+
+body {
+    background: url("1.jpg") no-repeat center center / cover;
+    width: 100% auto;
+    height: 0 auto 0 auto;
+}
+
+.masternavbar {
+    background-color:  rgba(5, 109, 168, 0.938);
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    height: 70px;
+    overflow: hidden;
+}
+
+
+h1 {
+    font-weight: 300;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #444;
+}
+
+
+.instructions {
+    background-color:  rgb(240, 243, 245);
+    position: relative;
+    top: 25px;
+    left: 220px;
+    width: 800px;
+    max-width: 89%;
+    height: 450px;
+    border-radius: 5px;
+           
+}
+
+
+h6{
+    position: relative;
+    left: 25px;
+    top: 30px;
+}
+
+
+p {
+    position: relative;
+    top: -5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.gems {
+    background-color: white;
+    width: 63.40%;
+    position: relative;
+    padding: -150px;  
+    margin: 147px;
+    bottom: 290px;
+    right: -73px;
+    border-radius: 5px;         
+    
+}
+
+/* This is for score section */
+
+.scoreWrapper {
+    position: relative;
+    left: 270px;
+    bottom: 190px;
+    right: 50px;
+    padding: 20px;
+    width: 50%;
+}
+
+
+.userTotal {
+
+    position: relative;
+    left: 700px;
+    bottom: 650px;
+    width: 40%;
+}
+
+/* This is for the individual image */
+
+.gemImage1 {
+    position: relative;
+    left: 75px;
+}
+
+
+.gemImage2 {
+    position: relative;
+    left: 115px;
+}
+
+.gemImage3 {
+    position: relative;
+    left: 150px;
+}
+
+
+.gemImage4 {
+    position: relative;
+    left: 185px;
+}
+
+
+.gemImage5 {
+    position: relative;
+    left: 220px;
+}
+
+
+button {       
+    position: relative;
+    left: 880px;    
+    bottom: 515px;
+}

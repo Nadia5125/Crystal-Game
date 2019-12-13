@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Crystal Game</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+        <link rel="stylesheet" href="crystalgame.css">
+    </head>
+    <body>
+
+        <nav class="masternavbar">           
+            <a class="navbar-name"><h4>Crystal Game</h4></a>            
+        </nav>
+        <h1></h1>
+        <di class="containter">
+            <div class="instructions">
+                <h6>Here is how you play the game</h6>
+                </br>
+                <div>
+                    <p>You will be given a random number at the start of the game."Number To Get"
+                            There are five crystals below.
+                            By clicking on a crystal, you will add a specific amount of points to your total score.
+                            You win the game by matching your total score to the random number.
+                            You lose the game if your total score goes above the random number.
+                            The value of each crystal is hidden from you until you click on it.
+                            Each time when the game starts, the game will change the values of each crystal. HAPPY PLAYING 🙂😘</p>
+                </div>                    
+                <hr color="black" size="10">           
+            </div>
+            <div class="scoreWrapper">
+                <div class="numberToMatch">
+                    <h7>Number To Get:
+                        <span id= "randomNumber"></span>  <!--This will be the selector for the random number in js-->
+                    </h7>
+                </div>
+                <div class="winsAndLosses">
+                    <h7>Wins:
+                        <span id= "numberWins"></span>  <!--this will be selected in js-->
+                        </br>
+                        Losses: 
+                        <span id= "numberLosses"></span>  <!--This will be selcted in js-->
+                    </h7>
+                </div>
+            </div>
+            <div class="gems">
+                <img src="green.jpg.jpg" class=gemImage1 id="four" alt="Yellow Gem" style="width: 60px; height: 65px;">
+                <img src="blue.jpg.jpg" class=gemImage2 id="one" alt="Blue Gem" style="width: 55px;">                
+                <img src="red.jpg.jpg" class=gemImage3 id="three" alt="Red Gem" style="width: 80px;">        
+                <img src="purple.jpg.jpg" class=gemImage4 id="two" alt="Green Gem" style="width: 60px;">                        
+                <img src="yellow.jpg.jpg" class=gemImage5 id="five" alt="Yellow Gem" style="width: 60px;"> 
+                
+            </div>
+            <div class="userTotal">
+                <h7>Your total score is:
+                    <span id="finalTotal"></span>  <!--This value will be selected in js-->
+                </h7>
+               
+            </div>             
+                               
+            </div>
+        </di>
+        
+     
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+     <script src="crystalgame.js"></script> 
+     <!--<script src="crystalgame2.js"></script> -->    
+       
+    </body>
+</html>
