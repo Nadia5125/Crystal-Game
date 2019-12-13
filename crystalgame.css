@@ -64,7 +64,7 @@ p {
 
 
 .gems {
-    background-color: white;
+    background-color: white;    
     width: 63.40%;
     position: relative;
     padding: -150px;  
@@ -88,7 +88,6 @@ p {
 
 
 .userTotal {
-
     position: relative;
     left: 700px;
     bottom: 650px;
